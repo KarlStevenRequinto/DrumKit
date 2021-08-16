@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(111, 111, 153);
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+h1 {
+    
+    background-color: chartreuse;
+    font-size: 100px;
+}
+.set {
+    
+    background-color: aqua;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    text-align: center;
+    
+}
+footer {
+    padding: 50px;
+    background-color: brown;
+    
+}
+.drum {
+    font-size: 70px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 5px;
+    border: crimson solid 10px;
+}
