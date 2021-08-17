@@ -4,41 +4,40 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(111, 111, 153);
-    position: relative;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     text-align: center;
-    
+    background-color: #283149;
 }
 h1 {
     
-    background-color: chartreuse;
-    font-size: 100px;
+    padding: 40px;
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
 }
 .set {
-    
-    background-color: aqua;
-    justify-content: center;
-    align-items: center; 
-    padding: 20px;
-    text-align: center;
+    margin: 10% auto;
     
 }
 footer {
-    padding: 50px;
-    background-color: brown;
+    color: #DBEDF3;
+    font-family: sans-serif;
     
 }
 .drum {
-    font-size: 70px;
+    text-align: center;
+    margin: 10px;
+    font-size: 5rem;
     width: 150px;
-    height: 150px;
-    position: relative;
-    border-radius: 5px;
-    border: crimson solid 10px;
+    outline: none;
+    border-radius: 15px;
+    border: rgb(85, 83, 83) solid 10px;
     color: crimson;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    text-shadow: 3px 0 #DBEDF3;
+    display: inline-block;
 }
 .w {
     background-image: url(images/crash.png);
